@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* first sections styles */
+/* navigation */
+.first-section {
+  background-color: #eeeff1;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+.nav {
+  padding-top: 79px;
+  margin-bottom: 151px;
+}
+.nav-item {
+  display: inline-block;
+  margin-right: 42px;
+}
+.nav-link.active {
+  color: #34547a;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #34547a;
+}
+.nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000;
+  text-decoration: none;
+}
+/* main styles */
+.main {
+  padding-bottom: 141px;
+}
+.h1 {
+  font-weight: 500;
+  font-size: 48px;
+  color: #000;
+  margin-bottom: 60px;
+  line-height: 164.063%;
+}
+.txt {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 164.063%;
+  max-width: 540px;
+}
+.txt--grey {
+  color: #727272;
+}
+.main-txt {
+  margin-bottom: 65px;
+}
+/* button */
+.btn-blue {
+  background-color: #34547a;
+  border: none;
+  width: 225px;
+  height: 65px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164.063%;
+  letter-spacing: 1.6px;
+  padding: 20px 41px;
+  cursor: pointer;
+  transition: all 1.3s ease;
+}
+/* section about-author */
+.about-author {
+  padding: 112px 0;
+}
+.content-wrap {
+  max-width: 540px;
+  margin: 0 auto;
+  text-align: center;
+}
+.h2 {
+  font-weight: 500;
+  font-size: 32px;
+  color: #000;
+}
+.about-author-h2 {
+  margin-bottom: 50px;
+}
+/* sections works */
+.works {
+  background-color: #34547a;
+  padding: 100px 0;
+}
+.works-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.works-item {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+.txt--white {
+  color: #fff;
+}
+.works-text {
+  max-width: 71px;
+}
+.h3 {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 36px;
+  height: 19px;
+  flex-shrink: 0;
+}
+
+.iframe {
+  max-width: 1110px;
+  height: 600px;
+  margin: 0 auto;
+  width: 100%;
+  display: block;
+}
